@@ -1,0 +1,38 @@
+/* set the URL bar font characteristics */
+#urlbar {
+    /*Template: http://joelinoff.com/blog/?p=321*/
+    /*font-family: Anonymous Pro !important;*/
+    font-family: Source Code Pro !important;
+    /*font-family: Droid Sans Mono !important;*/
+    font-size: 8pt !important;
+    /*color: #4665A2 !important;*/
+    /*
+     * This has a very interesting effect on my linux hosts,
+     * it causes parts of the URL to be highlighted.
+     * I tested it on Ubuntu 11.04 and CentOS 5.5.
+     * Do NOT do this on windows. The effect is different.
+     */
+    /*background-color: red !important;*/
+    /*
+     * You can change the width of your address bar using
+     * max-width. If this is not specified it uses up
+     * the maximum possible space.
+     */
+    /* I prefer the default. */
+    /* max-width: 1024px !important; /* by pixels */
+    /* max-width: 80em !important; /* by characters */
+}
+
+#searchbar .searchbar-textbox{
+font-family: "Geneva" !important; font-size: 8pt !important }
+
+.toolbarbutton-text {
+font-size: 10px !important;
+}
+
+/* Blank background before clicked link page loads....
+see userContent.css for blank tab and initial Firefox startup blank
+before homepage loads */
+tabbrowser tabpanels {
+background-color: rgb(45, 45, 45) !important;
+}
