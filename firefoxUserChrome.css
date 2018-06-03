@@ -24,10 +24,13 @@
 }
 
 #searchbar .searchbar-textbox{
-font-family: "Geneva" !important; font-size: 8pt !important }
+/*font-family: "Helvetica Neue Thin" !important; font-size: 8pt !important }*/
+font-family: "Source Code Pro" !important; font-size: 8pt !important
+}
 
 .toolbarbutton-text {
-font-size: 10px !important;
+/*font-size: 10px !important;*/
+font-family: "Source Code Pro" !important; font-size: 8pt !important
 }
 
 /* Blank background before clicked link page loads....
