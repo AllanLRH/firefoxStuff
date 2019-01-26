@@ -1,4 +1,7 @@
 /* set the URL bar font characteristics */
+
+"#contentAreaContextMenu { margin: 10px 0px 0px 10px; }"
+
 #urlbar {
     /*Template: http://joelinoff.com/blog/?p=321*/
     /*font-family: Anonymous Pro !important;*/
@@ -39,3 +42,27 @@ before homepage loads */
 tabbrowser tabpanels {
 background-color: rgb(45, 45, 45) !important;
 }
+
+
+
+
+
+
+
+
+/*****************************************************************************
+*                              current backup                              *
+****************************************************************************
+*/
+
+/*#urlbar { font-family: Monaco !important; font-size: 5pt }*/
+/*#urlbar { font-family: Monaco !important; font-size: 8pt !important}*/
+#urlbar { font-family: Source Code Pro !important; font-size: 7pt !important}
+/*#searchbar { font-family: Tahoma !important; font-size: 8pt !important}*/
+/*#searchbar .searchbar-textbox{ font-family: Verdana !important; font-size: 8pt !important }*/
+/*#searchbar .searchbar-textbox { font-family: Lucida Grande !important; font-size: 8pt !important }*/
+/*#searchbar .searchbar-textbox { font-family: Myriad Hebrew !important; font-size: 9pt !important }*/
+#searchbar { font-family: 'Fira Sans' !important; font-size: 7pt !important }
+.tab-text { font-size: 9px !important }
+#PersonalToolbar .toolbarbutton-text { font-size: 9px !important }
+
