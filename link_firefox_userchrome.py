@@ -3,6 +3,7 @@
 
 import os
 import sys
+import platform
 import pathlib
 import yaml
 
@@ -30,6 +31,10 @@ def promot_user_for_folder(profile_folders):
             print(f"Value must be between 1 and {len(profile_folders)}, but you specified {idx}")
     return userinput
     
+# Quit if not on a mac system
+if platform.system() != "Darwin":
+    print("This script only works on Mac", file=sys.stderr)
+    sys,exit(1)
 
 # Load preferences
 with open("filepaths.yaml") as fid:
